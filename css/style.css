@@ -1,0 +1,56 @@
+body h3 {
+  font-weight: 600 !important;
+}
+
+/*! NAVBAR */
+.collapse a {
+  color: white;
+  transition: all 0.5s;
+}
+.collapse a:hover {
+  color: red;
+}
+/* <!-- CAROUSEL --> */
+.carousel-item {
+  max-height: calc(100vh - 10px);
+}
+/* <!-- SERVİCES--> */
+/* <!--PORTFOLLİO--> */
+/* <!--ABOUT US--> */
+.img img {
+  max-width: calc(100vw - 790px);
+  min-width: 450px;
+  min-height: max-content;
+  margin-right: 1rem;
+}
+/* <!--OUR TEAM--> */
+.foto img {
+  border: 3px solid grey;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+.foto i {
+  cursor: pointer;
+}
+/* <!--LOGOS--> */
+.logos {
+  text-align: center;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 2rem;
+}
+.logos img {
+  width: 200px;
+  height: 100px;
+}
+/* <!--CONTACT--> */
+.contact{
+  background-image: url("../images/map.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
